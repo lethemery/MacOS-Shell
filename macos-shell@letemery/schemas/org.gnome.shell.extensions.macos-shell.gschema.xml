@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.macos-shell" path="/org/gnome/shell/extensions/macos-shell/">
+
+    <key name="language" type="s">
+      <choices><choice value="auto"/><choice value="en"/><choice value="ru"/></choices>
+      <default>'auto'</default>
+      <summary>Interface language</summary>
+    </key>
+    <key name="appearance" type="s">
+      <choices><choice value="auto"/><choice value="light"/><choice value="dark"/></choices>
+      <default>'auto'</default>
+      <summary>Glass tint: follow system, light or dark</summary>
+    </key>
+
+    <key name="module-menubar" type="b"><default>true</default></key>
+    <key name="module-dock" type="b"><default>true</default></key>
+    <key name="module-widgets" type="b"><default>true</default></key>
+    <key name="module-notifications" type="b"><default>true</default></key>
+    <key name="module-lockscreen" type="b"><default>true</default></key>
+    <key name="module-spotlight" type="b"><default>true</default></key>
+    <key name="module-osd" type="b"><default>true</default></key>
+    <key name="module-windowbuttons" type="b"><default>true</default></key>
+    <key name="module-animations" type="b"><default>true</default></key>
+    <key name="module-shakecursor" type="b"><default>true</default></key>
+    <key name="module-launchpad" type="b"><default>true</default></key>
+    <key name="module-dialogs" type="b"><default>true</default></key>
+
+    <key name="menubar-style" type="s">
+      <choices><choice value="glass"/><choice value="transparent"/><choice value="solid"/></choices>
+      <default>'glass'</default>
+    </key>
+    <key name="menubar-height" type="i">
+      <range min="24" max="40"/>
+      <default>30</default>
+    </key>
+    <key name="menubar-show-logo" type="b"><default>true</default></key>
+    <key name="menubar-show-app-name" type="b"><default>true</default></key>
+    <key name="menubar-show-activities" type="b"><default>false</default></key>
+    <key name="menubar-show-app-menus" type="b">
+      <default>true</default>
+      <summary>File, Edit, View, Window and Help menus after the app name</summary>
+    </key>
+    <key name="menubar-logo-path" type="s">
+      <default>''</default>
+      <summary>Custom image for the logo menu (empty: built-in icon)</summary>
+    </key>
+    <key name="menubar-show-battery" type="b"><default>true</default></key>
+    <key name="menubar-battery-percent" type="b"><default>false</default></key>
+    <key name="menubar-show-wifi" type="b"><default>true</default></key>
+    <key name="menubar-control-center" type="b">
+      <default>true</default>
+      <summary>Replace GNOME's status icons with a Control Center icon</summary>
+    </key>
+    <key name="menubar-show-date" type="b"><default>true</default></key>
+    <key name="menubar-show-weekday" type="b"><default>true</default></key>
+    <key name="menubar-show-seconds" type="b"><default>false</default></key>
+
+    <key name="dock-icon-size" type="i">
+      <range min="24" max="96"/>
+      <default>48</default>
+    </key>
+    <key name="dock-magnification" type="b"><default>true</default></key>
+    <key name="dock-magnification-scale" type="d">
+      <range min="1.0" max="2.5"/>
+      <default>1.6</default>
+    </key>
+    <key name="dock-bounce" type="b"><default>true</default></key>
+    <key name="dock-show-running" type="b"><default>true</default></key>
+    <key name="dock-show-launcher" type="b"><default>true</default></key>
+    <key name="dock-show-trash" type="b"><default>true</default></key>
+    <key name="dock-reserve-space" type="b">
+      <default>true</default>
+      <summary>Maximized windows end above the dock</summary>
+    </key>
+    <key name="dock-bottom-margin" type="i">
+      <range min="0" max="32"/>
+      <default>6</default>
+    </key>
+    <key name="dock-click-action" type="s">
+      <choices><choice value="focus"/><choice value="minimize"/><choice value="cycle"/></choices>
+      <default>'minimize'</default>
+    </key>
+    <key name="dock-hide-overview-dash" type="b"><default>true</default></key>
+
+    <key name="widgets-enabled" type="as">
+      <default>['clock', 'calendar', 'weather', 'system']</default>
+    </key>
+    <key name="widgets-positions" type="s">
+      <default>'{}'</default>
+      <summary>JSON map widget id → [x, y] (fractions of the work area)</summary>
+    </key>
+    <key name="widgets-layer" type="s">
+      <choices><choice value="top"/><choice value="desktop"/></choices>
+      <default>'desktop'</default>
+      <summary>On the desktop under windows, or above all windows</summary>
+    </key>
+    <key name="widgets-system-battery" type="b">
+      <default>true</default>
+      <summary>Show the battery as a ring in the System widget</summary>
+    </key>
+    <key name="widgets-battery-size" type="s">
+      <choices><choice value="small"/><choice value="wide"/></choices>
+      <default>'small'</default>
+      <summary>Small battery widget, or a wide one with all connected devices</summary>
+    </key>
+    <key name="weather-location" type="s">
+      <default>''</default>
+      <summary>Serialized GWeather location (empty: GNOME Weather's city or the current position)</summary>
+    </key>
+    <key name="weather-location-name" type="s"><default>''</default></key>
+    <key name="widgets-locked" type="b"><default>false</default></key>
+    <key name="widgets-scale" type="d">
+      <range min="0.6" max="1.6"/>
+      <default>1.0</default>
+    </key>
+
+    <key name="notifications-position" type="s">
+      <choices><choice value="top-right"/><choice value="top-center"/><choice value="top-left"/></choices>
+      <default>'top-right'</default>
+    </key>
+    <key name="notifications-slide" type="b"><default>true</default></key>
+    <key name="notifications-style-center" type="b">
+      <default>true</default>
+      <summary>Restyle the notification center / calendar popover</summary>
+    </key>
+
+    <key name="lockscreen-blur" type="s">
+      <choices><choice value="always"/><choice value="prompt"/><choice value="never"/></choices>
+      <default>'prompt'</default>
+    </key>
+    <key name="lockscreen-show-date" type="b"><default>true</default></key>
+    <key name="lockscreen-clock-weight" type="s">
+      <choices><choice value="bold"/><choice value="regular"/><choice value="light"/></choices>
+      <default>'bold'</default>
+    </key>
+    <key name="lockscreen-clock-opacity" type="i">
+      <range min="10" max="100"/>
+      <default>90</default>
+      <summary>Opacity of the lock screen date and time, in percent</summary>
+    </key>
+    <key name="lockscreen-avatar-size" type="s">
+      <choices><choice value="small"/><choice value="medium"/><choice value="large"/></choices>
+      <default>'small'</default>
+    </key>
+    <key name="lockscreen-prompt-margin" type="i">
+      <range min="2" max="40"/>
+      <default>6</default>
+      <summary>Distance of the avatar and password field from the bottom, in percent of the screen height</summary>
+    </key>
+    <key name="lockscreen-unlock-animation" type="b">
+      <default>true</default>
+      <summary>Fade the lock screen out and zoom the desktop in when unlocking, like macOS</summary>
+    </key>
+    <key name="lockscreen-prompt-bottom" type="b">
+      <default>true</default>
+      <summary>Move the password prompt to the bottom like macOS</summary>
+    </key>
+
+    <key name="spotlight-shortcut" type="as">
+      <default>['&lt;Super&gt;f']</default>
+      <summary>Keyboard shortcut that opens Spotlight</summary>
+    </key>
+    <key name="spotlight-show-icon" type="b"><default>true</default></key>
+    <key name="spotlight-providers" type="b">
+      <default>true</default>
+      <summary>Search files, settings and more through GNOME search providers</summary>
+    </key>
+    <key name="spotlight-web-search" type="b"><default>true</default></key>
+    <key name="spotlight-search-engine" type="s">
+      <choices><choice value="duckduckgo"/><choice value="google"/><choice value="yandex"/><choice value="bing"/></choices>
+      <default>'duckduckgo'</default>
+    </key>
+
+    <key name="osd-position" type="s">
+      <choices><choice value="top-right"/><choice value="bottom"/></choices>
+      <default>'top-right'</default>
+      <summary>Under the menu bar on the right (macOS Tahoe) or bottom center (older macOS)</summary>
+    </key>
+
+    <key name="windowbuttons-left" type="b">
+      <default>true</default>
+      <summary>Close, minimize and maximize on the left of the title bar</summary>
+    </key>
+    <key name="windowbuttons-colors" type="b">
+      <default>true</default>
+      <summary>Red, yellow and green buttons in GTK apps (writes a block to ~/.config/gtk-*/gtk.css)</summary>
+    </key>
+    <key name="windowbuttons-saved-layout" type="s">
+      <default>''</default>
+      <summary>The button layout from before the module changed it (internal)</summary>
+    </key>
+
+    <key name="animations-effect" type="s">
+      <choices><choice value="genie"/><choice value="scale"/></choices>
+      <default>'genie'</default>
+      <summary>Minimize effect, like the macOS Dock setting</summary>
+    </key>
+    <key name="animations-speed" type="s">
+      <choices><choice value="fast"/><choice value="normal"/><choice value="slow"/></choices>
+      <default>'normal'</default>
+    </key>
+
+    <key name="shakecursor-max-size" type="d">
+      <range min="2.0" max="8.0"/>
+      <default>4.0</default>
+      <summary>How big the cursor gets, in times the normal size</summary>
+    </key>
+    <key name="shakecursor-sensitivity" type="s">
+      <choices><choice value="low"/><choice value="normal"/><choice value="high"/></choices>
+      <default>'normal'</default>
+    </key>
+
+    <key name="launchpad-super-key" type="b">
+      <default>true</default>
+      <summary>The Super key opens Launchpad instead of the GNOME overview</summary>
+    </key>
+    <key name="launchpad-columns" type="i">
+      <range min="4" max="10"/>
+      <default>7</default>
+    </key>
+    <key name="launchpad-rows" type="i">
+      <range min="3" max="7"/>
+      <default>5</default>
+    </key>
+
+    <key name="dialogs-dim" type="b">
+      <default>false</default>
+      <summary>Dim the screen behind system dialogs as much as GNOME does</summary>
+    </key>
+  </schema>
+</schemalist>

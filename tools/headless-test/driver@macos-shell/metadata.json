@@ -1,0 +1,1 @@
+{"uuid": "driver@macos-shell", "name": "MacOS Shell test driver", "description": "Drives the headless test run", "shell-version": ["48", "49", "50"], "session-modes": ["user", "unlock-dialog"]}

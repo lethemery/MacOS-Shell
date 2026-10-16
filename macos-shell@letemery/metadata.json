@@ -1,0 +1,17 @@
+{
+  "uuid": "macos-shell@letemery",
+  "name": "MacOS Shell",
+  "description": "macOS Tahoe look for GNOME Shell in one extension: menu bar, animated dock, desktop widgets, notifications, lock screen and Spotlight, plus macOS volume and brightness pop-ups, title bar buttons, the genie minimize animation, shake-to-find for the cursor, Launchpad and macOS-style system dialogs. Every module can be switched on or off in the preferences. Languages: English, Russian.",
+  "shell-version": [
+    "48",
+    "49",
+    "50"
+  ],
+  "session-modes": [
+    "user",
+    "unlock-dialog"
+  ],
+  "settings-schema": "org.gnome.shell.extensions.macos-shell",
+  "version": 8,
+  "version-name": "1.0"
+}

@@ -1,0 +1,60 @@
+.tahoe-notifications .notification-banner {
+  width: 25em;
+  min-height: 0;
+  margin: 8px 10px;
+  border-radius: 22px;
+  padding: 4px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.26);
+}
+.tahoe-notifications.tahoe-light .notification-banner {
+  color: #1d1d1f;
+  background-color: rgba(246, 246, 250, 0.90);
+  border: 1px solid rgba(255, 255, 255, 0.75);
+}
+.tahoe-notifications.tahoe-dark .notification-banner {
+  color: #ffffff;
+  background-color: rgba(46, 46, 52, 0.90);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+}
+
+.tahoe-notifications.tahoe-light .notification-banner .message-header,
+.tahoe-notifications.tahoe-light .notification-banner .event-time { color: rgba(0, 0, 0, 0.55); }
+.tahoe-notifications.tahoe-light .notification-banner .message-close-button,
+.tahoe-notifications.tahoe-light .notification-banner .message-expand-button { color: #1d1d1f; }
+
+.tahoe-notifications .notification-banner .message-box .message-icon { icon-size: 38px; }
+.tahoe-notifications .notification-banner .message-box .message-icon.message-themed-icon {
+  min-width: 38px;
+  min-height: 38px;
+}
+.tahoe-notifications .notification-banner .message-title { font-weight: 700; }
+
+.tahoe-notifications .notification-banner .message-action-bin StButton {
+  border-radius: 12px;
+}
+
+.tahoe-notification-center.datemenu-popover {
+  border-radius: 26px;
+}
+.tahoe-notification-center .message {
+  border-radius: 20px;
+}
+.tahoe-notification-center.tahoe-light .message {
+  color: #1d1d1f;
+  background-color: rgba(255, 255, 255, 0.85);
+}
+.tahoe-notification-center.tahoe-light .message:second-in-stack { background-color: rgba(255, 255, 255, 0.70); }
+.tahoe-notification-center.tahoe-light .message:lower-in-stack  { background-color: rgba(255, 255, 255, 0.55); }
+.tahoe-notification-center.tahoe-light .message .message-header,
+.tahoe-notification-center.tahoe-light .message .event-time { color: rgba(0, 0, 0, 0.55); }
+
+.tahoe-notification-center.tahoe-dark .message {
+  background-color: rgba(70, 70, 78, 0.85);
+}
+
+.tahoe-notification-center .calendar .calendar-day.calendar-today,
+.tahoe-notification-center .calendar .calendar-today {
+  background-color: #ff3b30;
+  color: #ffffff;
+}
+.tahoe-notification-center .datemenu-today-button .date-label { font-weight: 300; }

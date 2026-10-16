@@ -1,0 +1,79 @@
+.tahoe-launchpad-dim { background-color: rgba(0, 0, 0, 0.10); }
+
+.tahoe-launchpad-search {
+  width: 240px;
+  min-height: 28px;
+  padding: 3px 10px;
+  border-radius: 9px;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  background-color: rgba(255, 255, 255, 0.16);
+  color: #ffffff;
+  caret-color: #ffffff;
+  selection-background-color: rgba(255, 255, 255, 0.35);
+  selected-color: #ffffff;
+  font-size: 10.5pt;
+  box-shadow: none;
+}
+.tahoe-launchpad-search:focus {
+  border-color: rgba(255, 255, 255, 0.35);
+  background-color: rgba(255, 255, 255, 0.20);
+}
+.tahoe-launchpad-search StLabel.hint-text { color: rgba(255, 255, 255, 0.6); }
+.tahoe-launchpad-search-icon {
+  icon-size: 14px;
+  padding-right: 6px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.tahoe-launchpad-item {
+  border-radius: 18px;
+  padding: 0;
+  background-color: transparent;
+  transition-duration: 120ms;
+}
+.tahoe-launchpad-item:selected { background-color: rgba(255, 255, 255, 0.14); }
+.tahoe-launchpad-item:active { background-color: rgba(0, 0, 0, 0.12); }
+.tahoe-launchpad-item-box { spacing: 8px; }
+
+.tahoe-launchpad-label {
+  color: #ffffff;
+  font-size: 10.5pt;
+  font-weight: 500;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.55);
+}
+
+.tahoe-launchpad-folder-icon {
+  background-color: rgba(255, 255, 255, 0.24);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.tahoe-launchpad-dots { spacing: 10px; }
+.tahoe-launchpad-dot {
+  width: 8px;
+  height: 8px;
+  padding: 0;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.32);
+}
+.tahoe-launchpad-dot:hover { background-color: rgba(255, 255, 255, 0.55); }
+.tahoe-launchpad-dot:checked { background-color: rgba(255, 255, 255, 0.95); }
+
+.tahoe-launchpad-empty {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 16pt;
+}
+
+.tahoe-launchpad-folder {
+  padding: 18px 24px 22px 24px;
+  spacing: 10px;
+  border-radius: 32px;
+  border: 1px solid rgba(255, 255, 255, 0.20);
+  background-color: rgba(255, 255, 255, 0.20);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.25);
+}
+.tahoe-launchpad-folder-title {
+  color: #ffffff;
+  font-size: 20pt;
+  font-weight: 300;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+}

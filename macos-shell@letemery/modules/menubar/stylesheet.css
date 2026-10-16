@@ -1,0 +1,112 @@
+#panel.tahoe-menubar {
+  font-weight: normal;
+  font-size: 10.5pt;
+  transition-duration: 250ms;
+}
+
+#panel.tahoe-menubar.tahoe-glass.tahoe-dark  { background-color: rgba(28, 28, 32, 0.38); }
+#panel.tahoe-menubar.tahoe-glass.tahoe-light { background-color: rgba(246, 246, 250, 0.42); }
+#panel.tahoe-menubar.tahoe-transparent       { background-color: transparent; }
+#panel.tahoe-menubar.tahoe-solid.tahoe-dark  { background-color: #1e1e22; }
+#panel.tahoe-menubar.tahoe-solid.tahoe-light { background-color: #ececf0; }
+
+/* The overview and the lock screen keep a transparent bar
+   (selectors are as specific as the tint ones above so they win). */
+#panel.tahoe-menubar.tahoe-glass.tahoe-dark:overview,
+#panel.tahoe-menubar.tahoe-glass.tahoe-light:overview,
+#panel.tahoe-menubar.tahoe-solid.tahoe-dark:overview,
+#panel.tahoe-menubar.tahoe-solid.tahoe-light:overview,
+#panel.tahoe-menubar.tahoe-dark.unlock-screen,
+#panel.tahoe-menubar.tahoe-light.unlock-screen,
+#panel.tahoe-menubar.tahoe-dark.login-screen,
+#panel.tahoe-menubar.tahoe-light.login-screen { background-color: transparent; }
+
+.tahoe-menubar-blur { background-color: transparent; }
+
+#panel.tahoe-menubar .panel-button {
+  font-weight: 500;
+  border-width: 2px;
+  border-radius: 8px;
+  -natural-hpadding: 9px;
+  -minimum-hpadding: 5px;
+}
+
+#panel.tahoe-menubar.tahoe-light .panel-button,
+#panel.tahoe-menubar.tahoe-light .panel-button.clock-display { color: #1d1d1f; }
+#panel.tahoe-menubar.tahoe-dark .panel-button,
+#panel.tahoe-menubar.tahoe-dark .panel-button.clock-display  { color: #ffffff; }
+#panel.tahoe-menubar.tahoe-light:overview .panel-button,
+#panel.tahoe-menubar.tahoe-light:overview .panel-button.clock-display { color: #ffffff; }
+
+#panel.tahoe-menubar.tahoe-light .panel-button:hover,
+#panel.tahoe-menubar.tahoe-light .panel-button:focus  { box-shadow: inset 0 0 0 100px rgba(0, 0, 0, 0.08); }
+#panel.tahoe-menubar.tahoe-light .panel-button:active,
+#panel.tahoe-menubar.tahoe-light .panel-button:checked { box-shadow: inset 0 0 0 100px rgba(0, 0, 0, 0.14); }
+
+#panel.tahoe-menubar.tahoe-transparent .panel-button {
+  color: #ffffff;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.55);
+  icon-shadow: 0 1px 3px rgba(0, 0, 0, 0.55);
+}
+
+#panel.tahoe-menubar .panel-button .system-status-icon {
+  icon-size: 15px;
+  margin: 0 2px;
+}
+
+#panel.tahoe-menubar .tahoe-logo-button { -natural-hpadding: 12px; }
+#panel.tahoe-menubar .tahoe-logo-icon { icon-size: 16px; padding: 0; margin: 0; }
+
+#panel.tahoe-menubar .tahoe-app-name-label { font-weight: 800; }
+
+#panel.tahoe-menubar .panel-button.clock-display .tahoe-clock {
+  font-weight: 500;
+  font-feature-settings: "tnum";
+  border: none;
+  box-shadow: none;
+  padding: 0 2px;
+}
+
+#panel.tahoe-menubar .tahoe-menu-title {
+  -natural-hpadding: 8px;
+  -minimum-hpadding: 4px;
+}
+#panel.tahoe-menubar .tahoe-menu-title-label { font-weight: 500; }
+#panel.tahoe-menubar .tahoe-app-name .tahoe-menu-title-label { font-weight: 800; }
+
+#panel.tahoe-menubar .tahoe-status-button {
+  -natural-hpadding: 7px;
+  -minimum-hpadding: 4px;
+}
+#panel.tahoe-menubar .tahoe-status-icon {
+  icon-size: 16px;
+  padding: 0;
+  margin: 0;
+}
+#panel.tahoe-menubar .tahoe-battery-box { spacing: 5px; }
+#panel.tahoe-menubar .tahoe-battery-label { font-weight: 500; font-feature-settings: "tnum"; }
+
+#panel.tahoe-menubar .tahoe-control-center-button {
+  -natural-hpadding: 8px;
+  -minimum-hpadding: 4px;
+}
+.tahoe-control-center { spacing: 6px; }
+.tahoe-privacy-dots { spacing: 3px; }
+.tahoe-privacy-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 4px;
+}
+.tahoe-privacy-dot.mic      { background-color: #ff9f0a; }
+.tahoe-privacy-dot.camera   { background-color: #30d158; }
+.tahoe-privacy-dot.screen   { background-color: #bf5af2; }
+.tahoe-privacy-dot.location { background-color: #0a84ff; }
+
+.tahoe-menu .tahoe-menu-accel {
+  padding-left: 28px;
+  font-size: 9.5pt;
+  opacity: 0.55;
+}
+.tahoe-menu .popup-menu-item:hover .tahoe-menu-accel { opacity: 0.85; }
+.tahoe-menu .tahoe-menu-header { font-weight: 700; }
+.tahoe-app-menu .popup-menu-content { min-width: 14em; }

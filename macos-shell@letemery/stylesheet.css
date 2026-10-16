@@ -1,0 +1,15 @@
+.tahoe-menu .popup-menu-content {
+  border-radius: 14px;
+  padding: 5px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.30);
+}
+.tahoe-menu .popup-menu-item {
+  border-radius: 7px;
+  padding: 4px 10px;
+}
+.tahoe-menu .popup-menu-item:hover,
+.tahoe-menu .popup-menu-item:focus {
+  background-color: -st-accent-color;
+  color: -st-accent-fg-color;
+}
+.tahoe-menu .popup-separator-menu-item { padding: 2px 8px; }

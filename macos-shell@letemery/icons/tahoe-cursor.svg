@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <!-- macOS-style arrow; the tip (hotspot) is at (14, 6). -->
+  <path d="M15 8 L15 52 L26 41.6 L33 58 L40.2 55 L33.4 39 L48 39 Z"
+        fill="#000" fill-opacity="0.22" transform="translate(1.2 2)"/>
+  <path d="M14 6 L14 50 L25 39.6 L32 56 L39.2 53 L32.4 37 L47 37 Z"
+        fill="#000" stroke="#fff" stroke-width="3.2" stroke-linejoin="round"/>
+</svg>

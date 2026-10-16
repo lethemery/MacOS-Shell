@@ -1,0 +1,1489 @@
+# Russian translation for the MacOS Shell GNOME Shell extension suite.
+msgid ""
+msgstr ""
+"Project-Id-Version: MacOS Shell 1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-16 22:10+0500\n"
+"PO-Revision-Date: 2026-10-15 22:00+0300\n"
+"Last-Translator: MacOS Shell contributors\n"
+"Language-Team: Russian\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: lib/i18n.js:115
+msgid "Mon"
+msgstr "Пн"
+
+#: lib/i18n.js:115
+msgid "Tue"
+msgstr "Вт"
+
+#: lib/i18n.js:115
+msgid "Wed"
+msgstr "Ср"
+
+#: lib/i18n.js:115
+msgid "Thu"
+msgstr "Чт"
+
+#: lib/i18n.js:115
+msgid "Fri"
+msgstr "Пт"
+
+#: lib/i18n.js:115
+msgid "Sat"
+msgstr "Сб"
+
+#: lib/i18n.js:115
+msgid "Sun"
+msgstr "Вс"
+
+#: lib/i18n.js:116
+msgid "Monday"
+msgstr "понедельник"
+
+#: lib/i18n.js:116
+msgid "Tuesday"
+msgstr "вторник"
+
+#: lib/i18n.js:116
+msgid "Wednesday"
+msgstr "среда"
+
+#: lib/i18n.js:116
+msgid "Thursday"
+msgstr "четверг"
+
+#: lib/i18n.js:117
+msgid "Friday"
+msgstr "пятница"
+
+#: lib/i18n.js:117
+msgid "Saturday"
+msgstr "суббота"
+
+#: lib/i18n.js:117
+msgid "Sunday"
+msgstr "воскресенье"
+
+#: lib/i18n.js:118
+msgid "Jan"
+msgstr "янв."
+
+#: lib/i18n.js:118
+msgid "Feb"
+msgstr "февр."
+
+#: lib/i18n.js:118
+msgid "Mar"
+msgstr "мар."
+
+#: lib/i18n.js:118
+msgid "Apr"
+msgstr "апр."
+
+#: lib/i18n.js:118
+msgid "May|short"
+msgstr "мая"
+
+#: lib/i18n.js:118
+msgid "Jun"
+msgstr "июн."
+
+#: lib/i18n.js:119
+msgid "Jul"
+msgstr "июл."
+
+#: lib/i18n.js:119
+msgid "Aug"
+msgstr "авг."
+
+#: lib/i18n.js:119
+msgid "Sep"
+msgstr "сент."
+
+#: lib/i18n.js:119
+msgid "Oct"
+msgstr "окт."
+
+#: lib/i18n.js:119
+msgid "Nov"
+msgstr "нояб."
+
+#: lib/i18n.js:119
+msgid "Dec"
+msgstr "дек."
+
+#: lib/i18n.js:120
+msgid "January"
+msgstr "января"
+
+#: lib/i18n.js:120
+msgid "February"
+msgstr "февраля"
+
+#: lib/i18n.js:120
+msgid "March"
+msgstr "марта"
+
+#: lib/i18n.js:120
+msgid "April"
+msgstr "апреля"
+
+#: lib/i18n.js:120
+msgid "May"
+msgstr "мая"
+
+#: lib/i18n.js:121
+msgid "June"
+msgstr "июня"
+
+#: lib/i18n.js:121
+msgid "July"
+msgstr "июля"
+
+#: lib/i18n.js:121
+msgid "August"
+msgstr "августа"
+
+#: lib/i18n.js:121
+msgid "September"
+msgstr "сентября"
+
+#: lib/i18n.js:121
+msgid "October"
+msgstr "октября"
+
+#: lib/i18n.js:121
+msgid "November"
+msgstr "ноября"
+
+#: lib/i18n.js:122
+msgid "December"
+msgstr "декабря"
+
+#: lib/i18n.js:123
+msgid "January|nominative"
+msgstr "Январь"
+
+#: lib/i18n.js:123
+msgid "February|nominative"
+msgstr "Февраль"
+
+#: lib/i18n.js:124
+msgid "March|nominative"
+msgstr "Март"
+
+#: lib/i18n.js:124
+msgid "April|nominative"
+msgstr "Апрель"
+
+#: lib/i18n.js:124
+msgid "May|nominative"
+msgstr "Май"
+
+#: lib/i18n.js:125
+msgid "June|nominative"
+msgstr "Июнь"
+
+#: lib/i18n.js:125
+msgid "July|nominative"
+msgstr "Июль"
+
+#: lib/i18n.js:125
+msgid "August|nominative"
+msgstr "Август"
+
+#: lib/i18n.js:126
+msgid "September|nominative"
+msgstr "Сентябрь"
+
+#: lib/i18n.js:126
+msgid "October|nominative"
+msgstr "Октябрь"
+
+#: lib/i18n.js:126
+msgid "November|nominative"
+msgstr "Ноябрь"
+
+#: lib/i18n.js:127
+msgid "December|nominative"
+msgstr "Декабрь"
+
+#: modules/animations/prefs.js:7
+msgid "Minimize and restore"
+msgstr "Сворачивание и разворачивание"
+
+#: modules/animations/prefs.js:7
+msgid "The window goes into its icon in the dock and comes back out of it."
+msgstr "Окно уходит в свой значок в доке и выходит из него обратно."
+
+#: modules/animations/prefs.js:8
+msgid "Effect"
+msgstr "Эффект"
+
+#: modules/animations/prefs.js:9
+msgid "Genie"
+msgstr "Джинн"
+
+#: modules/animations/prefs.js:10
+msgid "Scale"
+msgstr "Масштаб"
+
+#: modules/animations/prefs.js:12
+msgid "Speed"
+msgstr "Скорость"
+
+#: modules/animations/prefs.js:13
+msgid "Fast"
+msgstr "Быстро"
+
+#: modules/animations/prefs.js:14 modules/shakecursor/prefs.js:12
+msgid "Normal"
+msgstr "Обычно"
+
+#: modules/animations/prefs.js:15
+msgid "Slow"
+msgstr "Медленно"
+
+#: modules/dialogs/prefs.js:7
+msgid "Appearance"
+msgstr "Внешний вид"
+
+#: modules/dialogs/prefs.js:7
+msgid ""
+"Password requests, Wi‑Fi passwords, power off, “not responding” and "
+"permission dialogs."
+msgstr "Запросы пароля, пароли Wi‑Fi, выключение, «не отвечает» и запросы разрешений."
+
+#: modules/dialogs/prefs.js:8
+msgid "Dim the screen behind"
+msgstr "Затемнять экран позади"
+
+#: modules/dialogs/prefs.js:9
+msgid "Like GNOME. macOS barely dims it"
+msgstr "Как в GNOME. В macOS экран почти не затемняется"
+
+#: modules/dock/dock.js:241 modules/menubar/appmenus.js:291
+#: modules/spotlight/module.js:345
+msgid "Applications"
+msgstr "Приложения"
+
+#: modules/dock/dock.js:268 modules/dock/dock.js:288 modules/dock/dock.js:302
+#: modules/dock/prefs.js:24 modules/menubar/appmenus.js:293
+msgid "Trash"
+msgstr "Корзина"
+
+#: modules/dock/dock.js:297 modules/launchpad/launchpad.js:699
+msgid "Open"
+msgstr "Открыть"
+
+#: modules/dock/dock.js:298
+msgid "Empty Trash"
+msgstr "Очистить корзину"
+
+#: modules/dock/prefs.js:7
+msgid "Size and animation"
+msgstr "Размер и анимация"
+
+#: modules/dock/prefs.js:8
+msgid "Icon size"
+msgstr "Размер значков"
+
+#: modules/dock/prefs.js:8 modules/dock/prefs.js:19 modules/menubar/prefs.js:55
+msgid "In pixels"
+msgstr "В пикселях"
+
+#: modules/dock/prefs.js:9
+msgid "Magnification"
+msgstr "Увеличение"
+
+#: modules/dock/prefs.js:10
+msgid "Icons grow under the pointer"
+msgstr "Значки увеличиваются под указателем"
+
+#: modules/dock/prefs.js:11
+msgid "Magnification amount"
+msgstr "Степень увеличения"
+
+#: modules/dock/prefs.js:12
+msgid "Bounce"
+msgstr "Подпрыгивание"
+
+#: modules/dock/prefs.js:13
+msgid "Icons bounce while apps launch or need attention"
+msgstr ""
+"Значки подпрыгивают при запуске приложения или когда оно требует внимания"
+
+#: modules/dock/prefs.js:15 modules/notifications/prefs.js:8
+#: modules/osd/prefs.js:8
+msgid "Position"
+msgstr "Положение"
+
+#: modules/dock/prefs.js:16
+msgid "Keep windows above the dock"
+msgstr "Окна не заходят под док"
+
+#: modules/dock/prefs.js:17
+msgid "Maximized windows end where the dock begins"
+msgstr "Развёрнутые окна заканчиваются там, где начинается док"
+
+#: modules/dock/prefs.js:18
+msgid "Distance from the screen edge"
+msgstr "Отступ от края экрана"
+
+#: modules/dock/prefs.js:21
+msgid "Content"
+msgstr "Содержимое"
+
+#: modules/dock/prefs.js:22
+msgid "Applications button"
+msgstr "Кнопка «Приложения»"
+
+#: modules/dock/prefs.js:23
+msgid "Show running apps that are not pinned"
+msgstr "Показывать запущенные незакреплённые приложения"
+
+#: modules/dock/prefs.js:25
+msgid "Hide the standard dash in the overview"
+msgstr "Скрыть стандартную панель в режиме обзора"
+
+#: modules/dock/prefs.js:27
+msgid "Behavior"
+msgstr "Поведение"
+
+#: modules/dock/prefs.js:27
+msgid "Middle click or Ctrl+click opens a new window."
+msgstr "Средняя кнопка мыши или Ctrl+щелчок открывает новое окно."
+
+#: modules/dock/prefs.js:28
+msgid "Clicking the active app"
+msgstr "Щелчок по активному приложению"
+
+#: modules/dock/prefs.js:29
+msgid "Minimizes its windows"
+msgstr "Сворачивает его окна"
+
+#: modules/dock/prefs.js:30
+msgid "Switches between its windows"
+msgstr "Переключает его окна"
+
+#: modules/dock/prefs.js:31
+msgid "Does nothing"
+msgstr "Ничего не делает"
+
+#: modules/launchpad/launchpad.js:97 modules/launchpad/launchpad.js:802
+#: modules/spotlight/prefs.js:48
+msgid "Search"
+msgstr "Поиск"
+
+#: modules/launchpad/launchpad.js:331
+msgid "No Results"
+msgstr "Ничего не найдено"
+
+#: modules/launchpad/launchpad.js:701 modules/menubar/appmenus.js:240
+msgid "New Window"
+msgstr "Новое окно"
+
+#: modules/launchpad/launchpad.js:709
+msgid "Remove from Dock"
+msgstr "Убрать из Dock"
+
+#: modules/launchpad/launchpad.js:711
+msgid "Add to Dock"
+msgstr "Добавить в Dock"
+
+#: modules/launchpad/prefs.js:7 modules/spotlight/prefs.js:44
+msgid "Opening"
+msgstr "Открытие"
+
+#: modules/launchpad/prefs.js:7
+msgid ""
+"Launchpad also opens from the Applications button in the dock and with "
+"Super+A."
+msgstr ""
+"Launchpad также открывается кнопкой «Приложения» в доке и сочетанием Super+A."
+
+#: modules/launchpad/prefs.js:8
+msgid "Open with the Super key"
+msgstr "Открывать клавишей Super"
+
+#: modules/launchpad/prefs.js:9
+msgid ""
+"Instead of the GNOME overview, which still opens from the hot corner and the "
+"three-finger swipe"
+msgstr ""
+"Вместо обзора GNOME — он по-прежнему открывается горячим углом и жестом "
+"тремя пальцами"
+
+#: modules/launchpad/prefs.js:11
+msgid "Grid"
+msgstr "Сетка"
+
+#: modules/launchpad/prefs.js:12
+msgid "Columns"
+msgstr "Столбцы"
+
+#: modules/launchpad/prefs.js:13
+msgid "Rows"
+msgstr "Строки"
+
+#: modules/lockscreen/prefs.js:7 modules/menubar/prefs.js:74
+#: modules/widgets/prefs.js:11
+msgid "Clock"
+msgstr "Часы"
+
+#: modules/lockscreen/prefs.js:8
+msgid "Show date above the time"
+msgstr "Показывать дату над временем"
+
+#: modules/lockscreen/prefs.js:9
+msgid "Time font weight"
+msgstr "Насыщенность шрифта времени"
+
+#: modules/lockscreen/prefs.js:10
+msgid "Bold"
+msgstr "Жирный"
+
+#: modules/lockscreen/prefs.js:11
+msgid "Regular"
+msgstr "Обычный"
+
+#: modules/lockscreen/prefs.js:12
+msgid "Thin"
+msgstr "Тонкий"
+
+#: modules/lockscreen/prefs.js:14
+msgid "Clock opacity"
+msgstr "Прозрачность часов"
+
+#: modules/lockscreen/prefs.js:14
+msgid "In percent"
+msgstr "В процентах (100 — непрозрачные)"
+
+#: modules/lockscreen/prefs.js:16
+msgid "Wallpaper and prompt"
+msgstr "Обои и поле пароля"
+
+#: modules/lockscreen/prefs.js:16
+msgid "Lock the screen (Super+L) to see the changes."
+msgstr "Заблокируйте экран (Super+L), чтобы увидеть изменения."
+
+#: modules/lockscreen/prefs.js:17
+msgid "Blur the wallpaper"
+msgstr "Размытие обоев"
+
+#: modules/lockscreen/prefs.js:18
+msgid "Only while entering the password"
+msgstr "Только при вводе пароля"
+
+#: modules/lockscreen/prefs.js:19
+msgid "Always"
+msgstr "Всегда"
+
+#: modules/lockscreen/prefs.js:20
+msgid "Never"
+msgstr "Никогда"
+
+#: modules/lockscreen/prefs.js:22
+msgid "Avatar size"
+msgstr "Размер аватарки"
+
+#: modules/lockscreen/prefs.js:23
+msgid "Small, like macOS"
+msgstr "Маленький, как в macOS"
+
+#: modules/lockscreen/prefs.js:24
+msgid "Medium"
+msgstr "Средний"
+
+#: modules/lockscreen/prefs.js:25
+msgid "Large, like GNOME"
+msgstr "Большой, как в GNOME"
+
+#: modules/lockscreen/prefs.js:27
+msgid "Password field at the bottom"
+msgstr "Поле пароля внизу"
+
+#: modules/lockscreen/prefs.js:28
+msgid "Like macOS. Off: in the middle of the screen"
+msgstr "Как в macOS. Если выключено — по центру экрана"
+
+#: modules/lockscreen/prefs.js:29
+msgid "Distance from the bottom"
+msgstr "Отступ от низа экрана"
+
+#: modules/lockscreen/prefs.js:30
+msgid "In percent of the screen height"
+msgstr "В процентах от высоты экрана"
+
+#: modules/lockscreen/prefs.js:32
+msgid "Unlocking"
+msgstr "Разблокировка"
+
+#: modules/lockscreen/prefs.js:33
+msgid "macOS unlock animation"
+msgstr "Анимация разблокировки как в macOS"
+
+#: modules/lockscreen/prefs.js:34
+msgid "The lock screen fades away and the desktop zooms in"
+msgstr "Экран блокировки растворяется, а рабочий стол плавно приближается"
+
+#: modules/menubar/appmenus.js:163
+msgid "Files"
+msgstr "Файлы"
+
+#: modules/menubar/appmenus.js:164
+msgid "File"
+msgstr "Файл"
+
+#: modules/menubar/appmenus.js:165
+msgid "Edit"
+msgstr "Правка"
+
+#: modules/menubar/appmenus.js:166
+msgid "View"
+msgstr "Вид"
+
+#: modules/menubar/appmenus.js:167
+msgid "Go"
+msgstr "Переход"
+
+#: modules/menubar/appmenus.js:168
+msgid "Window"
+msgstr "Окно"
+
+#: modules/menubar/appmenus.js:169
+msgid "Help"
+msgstr "Справка"
+
+#: modules/menubar/appmenus.js:204
+msgid "Open Files"
+msgstr "Открыть «Файлы»"
+
+#: modules/menubar/appmenus.js:206
+msgid "Empty Trash…"
+msgstr "Очистить корзину…"
+
+#: modules/menubar/appmenus.js:211
+msgid "About {app}"
+msgstr "О программе «{app}»"
+
+#: modules/menubar/appmenus.js:214
+msgid "Settings…"
+msgstr "Настройки…"
+
+#: modules/menubar/appmenus.js:216
+msgid "Hide {app}"
+msgstr "Скрыть «{app}»"
+
+#: modules/menubar/appmenus.js:219
+msgid "Hide Others"
+msgstr "Скрыть остальные"
+
+#: modules/menubar/appmenus.js:226
+msgid "Show All"
+msgstr "Показать все"
+
+#: modules/menubar/appmenus.js:231
+msgid "Quit {app}"
+msgstr "Завершить «{app}»"
+
+#: modules/menubar/appmenus.js:236
+msgid "New Files Window"
+msgstr "Новое окно «Файлов»"
+
+#: modules/menubar/appmenus.js:237
+msgid "Open Trash"
+msgstr "Открыть корзину"
+
+#: modules/menubar/appmenus.js:246
+msgid "New Tab"
+msgstr "Новая вкладка"
+
+#: modules/menubar/appmenus.js:247
+msgid "Open…"
+msgstr "Открыть…"
+
+#: modules/menubar/appmenus.js:249
+msgid "Close Window"
+msgstr "Закрыть окно"
+
+#: modules/menubar/appmenus.js:250
+msgid "Save"
+msgstr "Сохранить"
+
+#: modules/menubar/appmenus.js:251
+msgid "Save As…"
+msgstr "Сохранить как…"
+
+#: modules/menubar/appmenus.js:253
+msgid "Print…"
+msgstr "Напечатать…"
+
+#: modules/menubar/appmenus.js:257
+msgid "Undo"
+msgstr "Отменить"
+
+#: modules/menubar/appmenus.js:258
+msgid "Redo"
+msgstr "Повторить"
+
+#: modules/menubar/appmenus.js:260
+msgid "Cut"
+msgstr "Вырезать"
+
+#: modules/menubar/appmenus.js:261
+msgid "Copy"
+msgstr "Скопировать"
+
+#: modules/menubar/appmenus.js:262
+msgid "Paste"
+msgstr "Вставить"
+
+#: modules/menubar/appmenus.js:263
+msgid "Select All"
+msgstr "Выбрать все"
+
+#: modules/menubar/appmenus.js:265
+msgid "Find…"
+msgstr "Найти…"
+
+#: modules/menubar/appmenus.js:269
+msgid "Zoom In"
+msgstr "Увеличить"
+
+#: modules/menubar/appmenus.js:270
+msgid "Zoom Out"
+msgstr "Уменьшить"
+
+#: modules/menubar/appmenus.js:271
+msgid "Actual Size"
+msgstr "Фактический размер"
+
+#: modules/menubar/appmenus.js:274
+msgid "Exit Full Screen"
+msgstr "Выйти из полноэкранного режима"
+
+#: modules/menubar/appmenus.js:274
+msgid "Enter Full Screen"
+msgstr "Войти в полноэкранный режим"
+
+#: modules/menubar/appmenus.js:285
+msgid "Recents"
+msgstr "Недавние"
+
+#: modules/menubar/appmenus.js:286
+msgid "Documents"
+msgstr "Документы"
+
+#: modules/menubar/appmenus.js:287
+msgid "Desktop"
+msgstr "Рабочий стол"
+
+#: modules/menubar/appmenus.js:288
+msgid "Downloads"
+msgstr "Загрузки"
+
+#: modules/menubar/appmenus.js:289
+msgid "Home"
+msgstr "Домой"
+
+#: modules/menubar/appmenus.js:290
+msgid "Computer"
+msgstr "Компьютер"
+
+#: modules/menubar/appmenus.js:297
+msgid "Minimize"
+msgstr "Свернуть"
+
+#: modules/menubar/appmenus.js:298
+msgid "Zoom"
+msgstr "Изменить масштаб"
+
+#: modules/menubar/appmenus.js:312
+msgid "Move to Next Desktop"
+msgstr "Переместить на следующий рабочий стол"
+
+#: modules/menubar/appmenus.js:319
+msgid "Bring All to Front"
+msgstr "Все окна — на передний план"
+
+#: modules/menubar/appmenus.js:339
+msgid "{app} Help"
+msgstr "Справка «{app}»"
+
+#: modules/menubar/appmenus.js:341
+msgid "Keyboard Shortcuts"
+msgstr "Сочетания клавиш"
+
+#: modules/menubar/appmenus.js:345
+msgid "GNOME Help"
+msgstr "Справка GNOME"
+
+#: modules/menubar/module.js:51
+msgid "System menu"
+msgstr "Системное меню"
+
+#: modules/menubar/module.js:64
+msgid "About This Computer"
+msgstr "Об этом компьютере"
+
+#: modules/menubar/module.js:67
+msgid "System Settings…"
+msgstr "Системные настройки…"
+
+#: modules/menubar/module.js:69
+msgid "App Store…"
+msgstr "Магазин приложений…"
+
+#: modules/menubar/module.js:72
+msgid "Force Quit…"
+msgstr "Завершить принудительно…"
+
+#: modules/menubar/module.js:76
+msgid "Sleep"
+msgstr "Режим сна"
+
+#: modules/menubar/module.js:77
+msgid "Restart…"
+msgstr "Перезагрузить…"
+
+#: modules/menubar/module.js:78
+msgid "Shut Down…"
+msgstr "Выключить…"
+
+#: modules/menubar/module.js:80
+msgid "Lock Screen"
+msgstr "Заблокировать экран"
+
+#: modules/menubar/module.js:81
+msgid "Log Out {user}…"
+msgstr "Завершить сеанс «{user}»…"
+
+#: modules/menubar/prefs.js:10 modules/menubar/prefs.js:26
+msgid "Logo image"
+msgstr "Изображение логотипа"
+
+#: modules/menubar/prefs.js:13 modules/menubar/prefs.js:37
+msgid "Built-in icon"
+msgstr "Встроенный значок"
+
+#: modules/menubar/prefs.js:19
+msgid "Choose…"
+msgstr "Выбрать…"
+
+#: modules/menubar/prefs.js:21
+msgid "Images"
+msgstr "Изображения"
+
+#: modules/menubar/prefs.js:49
+msgid "Look"
+msgstr "Внешний вид"
+
+#: modules/menubar/prefs.js:50
+msgid "Bar style"
+msgstr "Стиль панели"
+
+#: modules/menubar/prefs.js:51
+msgid "Liquid glass"
+msgstr "Жидкое стекло"
+
+#: modules/menubar/prefs.js:52
+msgid "Transparent"
+msgstr "Прозрачная"
+
+#: modules/menubar/prefs.js:53
+msgid "Solid"
+msgstr "Сплошная"
+
+#: modules/menubar/prefs.js:55
+msgid "Height"
+msgstr "Высота"
+
+#: modules/menubar/prefs.js:57
+msgid "Left side"
+msgstr "Левая часть"
+
+#: modules/menubar/prefs.js:57
+msgid "Logo menu, bold app name, then File, Edit, View, Window and Help."
+msgstr ""
+"Меню с логотипом, жирное название приложения, затем «Файл», «Правка», «Вид», "
+"«Окно» и «Справка»."
+
+#: modules/menubar/prefs.js:58
+msgid "Logo menu"
+msgstr "Меню с логотипом"
+
+#: modules/menubar/prefs.js:59
+msgid "About this computer, settings, sleep, restart, shut down"
+msgstr "Об этом компьютере, настройки, сон, перезагрузка, выключение"
+
+#: modules/menubar/prefs.js:61
+msgid "Application name"
+msgstr "Название приложения"
+
+#: modules/menubar/prefs.js:62
+msgid "Bold name of the active app with its menu"
+msgstr "Жирное название активного приложения с его меню"
+
+#: modules/menubar/prefs.js:63
+msgid "File, Edit, View, Window, Help"
+msgstr "Файл, Правка, Вид, Окно, Справка"
+
+#: modules/menubar/prefs.js:64
+msgid "Editing commands are sent to the app as keyboard shortcuts"
+msgstr "Команды правки передаются приложению как сочетания клавиш"
+
+#: modules/menubar/prefs.js:65
+msgid "“Activities” button"
+msgstr "Кнопка «Обзор»"
+
+#: modules/menubar/prefs.js:67
+msgid "Right side"
+msgstr "Правая часть"
+
+#: modules/menubar/prefs.js:67
+msgid "Battery, Wi‑Fi, Spotlight, Control Center and the clock."
+msgstr "Аккумулятор, Wi‑Fi, Spotlight, Пункт управления и часы."
+
+#: modules/menubar/prefs.js:68 modules/menubar/status.js:59
+#: modules/widgets/prefs.js:16 modules/widgets/widgets.js:347
+#: modules/widgets/widgets.js:415
+msgid "Battery"
+msgstr "Аккумулятор"
+
+#: modules/menubar/prefs.js:69
+msgid "Show battery percentage"
+msgstr "Показывать заряд в процентах"
+
+#: modules/menubar/prefs.js:70 modules/menubar/status.js:218
+#: modules/menubar/status.js:278
+msgid "Wi‑Fi"
+msgstr "Wi‑Fi"
+
+#: modules/menubar/prefs.js:71
+msgid "Control Center"
+msgstr "Пункт управления"
+
+#: modules/menubar/prefs.js:72
+msgid "One icon instead of GNOME’s status icons; opens quick settings"
+msgstr ""
+"Один значок вместо значков состояния GNOME; открывает быстрые настройки"
+
+#: modules/menubar/prefs.js:75
+msgid "Show date"
+msgstr "Показывать дату"
+
+#: modules/menubar/prefs.js:76
+msgid "Show day of the week"
+msgstr "Показывать день недели"
+
+#: modules/menubar/prefs.js:77
+msgid "Show seconds"
+msgstr "Показывать секунды"
+
+#: modules/menubar/status.js:53
+msgid "{h}:{m}"
+msgstr "{h}:{m}"
+
+#: modules/menubar/status.js:124
+msgid "Battery {percent}%"
+msgstr "Аккумулятор {percent}%"
+
+#: modules/menubar/status.js:125
+msgid "Power Source: Battery"
+msgstr "Источник питания: аккумулятор"
+
+#: modules/menubar/status.js:127
+msgid "Power Source: Power Adapter"
+msgstr "Источник питания: адаптер питания"
+
+#: modules/menubar/status.js:130
+msgid "{time} until fully charged"
+msgstr "{time} до полной зарядки"
+
+#: modules/menubar/status.js:132
+msgid "{time} remaining"
+msgstr "Осталось {time}"
+
+#: modules/menubar/status.js:135
+msgid "Show Percentage"
+msgstr "Показывать в процентах"
+
+#: modules/menubar/status.js:140
+msgid "Battery Settings…"
+msgstr "Настройки аккумулятора…"
+
+#: modules/menubar/status.js:289
+msgid "Known Network"
+msgstr "Известная сеть"
+
+#: modules/menubar/status.js:297
+msgid "Other Networks…"
+msgstr "Другие сети…"
+
+#: modules/menubar/status.js:302
+msgid "Wi‑Fi Settings…"
+msgstr "Настройки Wi‑Fi…"
+
+#: modules/notifications/prefs.js:7
+msgid "Banners"
+msgstr "Баннеры"
+
+#: modules/notifications/prefs.js:9
+msgid "Top right"
+msgstr "Сверху справа"
+
+#: modules/notifications/prefs.js:10
+msgid "Top center"
+msgstr "Сверху по центру"
+
+#: modules/notifications/prefs.js:11
+msgid "Top left"
+msgstr "Сверху слева"
+
+#: modules/notifications/prefs.js:13
+msgid "Slide in from the screen edge"
+msgstr "Выезжать из-за края экрана"
+
+#: modules/notifications/prefs.js:14
+msgid "Like macOS. Off: drop down from the top"
+msgstr "Как в macOS. Если выключено — выпадают сверху"
+
+#: modules/notifications/prefs.js:16
+msgid "Notification center"
+msgstr "Центр уведомлений"
+
+#: modules/notifications/prefs.js:17
+msgid "Glass notification center"
+msgstr "Стеклянный центр уведомлений"
+
+#: modules/notifications/prefs.js:18
+msgid "Restyle the calendar and notification list opened from the clock"
+msgstr ""
+"Новый стиль календаря и списка уведомлений, открываемых по щелчку на часах"
+
+#: modules/osd/module.js:23 modules/osd/module.js:24 modules/osd/module.js:25
+#: modules/osd/module.js:26 modules/osd/module.js:27
+msgid "Sound"
+msgstr "Звук"
+
+#: modules/osd/module.js:28 modules/osd/module.js:29
+msgid "Microphone"
+msgstr "Микрофон"
+
+#: modules/osd/module.js:30
+msgid "Display"
+msgstr "Дисплей"
+
+#: modules/osd/module.js:31
+msgid "Keyboard"
+msgstr "Клавиатура"
+
+#: modules/osd/prefs.js:7
+msgid "Pop-up"
+msgstr "Всплывающее окно"
+
+#: modules/osd/prefs.js:7
+msgid ""
+"Shown when you change the volume or the screen brightness with the keys."
+msgstr "Появляется, когда громкость или яркость экрана меняются клавишами."
+
+#: modules/osd/prefs.js:9
+msgid "Under the menu bar on the right, like macOS Tahoe"
+msgstr "Справа под строкой меню, как в macOS Tahoe"
+
+#: modules/osd/prefs.js:10
+msgid "Bottom center, like older macOS"
+msgstr "Внизу по центру, как в прежних macOS"
+
+#: modules/shakecursor/prefs.js:7
+msgid "Shake to find"
+msgstr "Найти встряхиванием"
+
+#: modules/shakecursor/prefs.js:7
+msgid ""
+"Shake the mouse quickly left and right: the cursor grows, then shrinks back."
+msgstr ""
+"Быстро поводите мышью влево-вправо: курсор увеличится, а потом вернётся к "
+"обычному размеру."
+
+#: modules/shakecursor/prefs.js:8
+msgid "Largest size"
+msgstr "Наибольший размер"
+
+#: modules/shakecursor/prefs.js:9
+msgid "Times the normal cursor size"
+msgstr "Во сколько раз больше обычного курсора"
+
+#: modules/shakecursor/prefs.js:10
+msgid "Sensitivity"
+msgstr "Чувствительность"
+
+#: modules/shakecursor/prefs.js:11
+msgid "Low: shake hard"
+msgstr "Низкая: трясти сильно"
+
+#: modules/shakecursor/prefs.js:13
+msgid "High: a light shake is enough"
+msgstr "Высокая: хватит лёгкого движения"
+
+#: modules/spotlight/module.js:131 modules/spotlight/module.js:478
+msgid "Spotlight Search"
+msgstr "Поиск Spotlight"
+
+#: modules/spotlight/module.js:320
+msgid "Calculator"
+msgstr "Калькулятор"
+
+#: modules/spotlight/module.js:325
+msgid "Enter — copy"
+msgstr "Enter — скопировать"
+
+#: modules/spotlight/module.js:329
+msgid "Copied"
+msgstr "Скопировано"
+
+#: modules/spotlight/module.js:366 modules/widgets/prefs.js:15
+#: modules/widgets/widgets.js:337
+msgid "System"
+msgstr "Система"
+
+#: modules/spotlight/module.js:380
+msgid "Web"
+msgstr "Интернет"
+
+#: modules/spotlight/module.js:383
+msgid "Search the web for “{query}”"
+msgstr "Искать в интернете «{query}»"
+
+#: modules/spotlight/prefs.js:19
+msgid "Disabled"
+msgstr "Отключено"
+
+#: modules/spotlight/prefs.js:21
+msgid "Keyboard shortcut"
+msgstr "Сочетание клавиш"
+
+#: modules/spotlight/prefs.js:22
+msgid "Super+Space is used by GNOME to switch the keyboard layout"
+msgstr "Super+Пробел в GNOME переключает раскладку клавиатуры"
+
+#: modules/spotlight/prefs.js:46
+msgid "Magnifier in the top bar"
+msgstr "Лупа в верхней панели"
+
+#: modules/spotlight/prefs.js:48
+msgid "Applications, system actions and the calculator are always searched."
+msgstr "Приложения, системные действия и калькулятор ищутся всегда."
+
+#: modules/spotlight/prefs.js:49
+msgid "Files, settings and other apps"
+msgstr "Файлы, настройки и другие приложения"
+
+#: modules/spotlight/prefs.js:50
+msgid "Uses GNOME search providers, like the overview"
+msgstr "Через поставщиков поиска GNOME, как в режиме обзора"
+
+#: modules/spotlight/prefs.js:51
+msgid "Web search"
+msgstr "Поиск в интернете"
+
+#: modules/spotlight/prefs.js:52
+msgid "Search engine"
+msgstr "Поисковая система"
+
+#: modules/widgets/batteries.js:169 modules/widgets/widgets.js:248
+#: modules/widgets/widgets.js:269
+msgid "No battery"
+msgstr "Нет аккумулятора"
+
+#: modules/widgets/module.js:349
+msgid "Remove widget"
+msgstr "Удалить виджет"
+
+#: modules/widgets/module.js:353
+msgid "Unlock widget positions"
+msgstr "Разрешить перемещение виджетов"
+
+#: modules/widgets/module.js:353
+msgid "Lock widget positions"
+msgstr "Закрепить виджеты"
+
+#: modules/widgets/module.js:355
+msgid "Reset positions"
+msgstr "Сбросить расположение"
+
+#: modules/widgets/module.js:357
+msgid "Edit widgets…"
+msgstr "Настроить виджеты…"
+
+#: modules/widgets/prefs.js:11
+msgid "Analog clock"
+msgstr "Аналоговые часы"
+
+#: modules/widgets/prefs.js:12
+msgid "Calendar"
+msgstr "Календарь"
+
+#: modules/widgets/prefs.js:12
+msgid "Month at a glance"
+msgstr "Весь месяц на одном экране"
+
+#: modules/widgets/prefs.js:13
+msgid "Date"
+msgstr "Дата"
+
+#: modules/widgets/prefs.js:13
+msgid "Today, big and bold"
+msgstr "Сегодняшнее число крупно"
+
+#: modules/widgets/prefs.js:14 modules/widgets/weather.js:183
+#: modules/widgets/weather.js:201
+msgid "Weather"
+msgstr "Погода"
+
+#: modules/widgets/prefs.js:14
+msgid "Weather from GWeather, like GNOME Weather"
+msgstr "Погода из GWeather, как в «Погоде» GNOME"
+
+#: modules/widgets/prefs.js:15
+msgid "CPU, memory, swap and battery"
+msgstr "Процессор, память, подкачка и аккумулятор"
+
+#: modules/widgets/prefs.js:16
+msgid "A separate battery widget"
+msgstr "Отдельный виджет аккумулятора"
+
+#: modules/widgets/prefs.js:65
+msgid "Weather location"
+msgstr "Город для погоды"
+
+#: modules/widgets/prefs.js:66
+msgid "Data comes from libgweather, the library GNOME Weather uses."
+msgstr ""
+"Данные берутся из libgweather — библиотеки, которой пользуется «Погода» "
+"GNOME."
+
+#: modules/widgets/prefs.js:69
+msgid "City"
+msgstr "Город"
+
+#: modules/widgets/prefs.js:73
+msgid "Automatic: GNOME Weather’s city or your current location"
+msgstr "Автоматически: город из «Погоды» GNOME или ваше местоположение"
+
+#: modules/widgets/prefs.js:78
+msgid "Automatic"
+msgstr "Автоматически"
+
+#: modules/widgets/prefs.js:86
+msgid "Find a city"
+msgstr "Найти город"
+
+#: modules/widgets/prefs.js:137
+msgid "Reset widget positions"
+msgstr "Сбросить расположение виджетов"
+
+#: modules/widgets/prefs.js:141
+msgid "Widgets on the desktop"
+msgstr "Виджеты на рабочем столе"
+
+#: modules/widgets/prefs.js:142
+msgid "Drag widgets with the mouse. Right-click a widget for more options."
+msgstr ""
+"Перетаскивайте виджеты мышью. Щёлкните правой кнопкой для дополнительных "
+"действий."
+
+#: modules/widgets/prefs.js:144
+msgid "Layout"
+msgstr "Расположение"
+
+#: modules/widgets/prefs.js:145
+msgid "Layer"
+msgstr "Слой"
+
+#: modules/widgets/prefs.js:146
+msgid "On the desktop — under windows"
+msgstr "На рабочем столе — под окнами"
+
+#: modules/widgets/prefs.js:147
+msgid "Above windows — always visible"
+msgstr "Поверх окон — всегда видны"
+
+#: modules/widgets/prefs.js:149
+msgid "Battery in the System widget"
+msgstr "Аккумулятор в виджете «Система»"
+
+#: modules/widgets/prefs.js:150
+msgid "A fourth ring next to CPU, memory and swap"
+msgstr "Четвёртое кольцо рядом с ЦП, памятью и подкачкой"
+
+#: modules/widgets/prefs.js:151
+msgid "Separate battery widget"
+msgstr "Отдельный виджет аккумулятора"
+
+#: modules/widgets/prefs.js:152
+msgid "Small — this computer"
+msgstr "Маленький — этот компьютер"
+
+#: modules/widgets/prefs.js:153
+msgid "Wide — all devices, like macOS"
+msgstr "Широкий — все устройства, как в macOS"
+
+#: modules/widgets/prefs.js:155
+msgid "Size"
+msgstr "Размер"
+
+#: modules/widgets/prefs.js:156
+msgid "Lock positions"
+msgstr "Закрепить расположение"
+
+#: modules/widgets/prefs.js:156
+msgid "Prevent accidental dragging"
+msgstr "Защита от случайного перетаскивания"
+
+#: modules/widgets/weather.js:96
+msgid "Loading…"
+msgstr "Загрузка…"
+
+#: modules/widgets/weather.js:154 modules/widgets/weather.js:170
+msgid "Choose a city in the widget settings"
+msgstr "Выберите город в настройках виджетов"
+
+#: modules/widgets/weather.js:196
+msgid "Go online for weather information"
+msgstr "Подключитесь к интернету, чтобы узнать погоду"
+
+#: modules/widgets/weather.js:197
+msgid "Weather information unavailable"
+msgstr "Сведения о погоде недоступны"
+
+#: modules/widgets/weather.js:227
+msgid "H:{high} L:{low}"
+msgstr "Макс.: {high} Мин.: {low}"
+
+#: modules/widgets/widgets.js:268
+msgid "AC"
+msgstr "Сеть"
+
+#: modules/widgets/widgets.js:288
+msgid "Fully charged"
+msgstr "Полностью заряжен"
+
+#: modules/widgets/widgets.js:291
+msgid "{time} until full"
+msgstr "{time} до 100%"
+
+#: modules/widgets/widgets.js:292 modules/widgets/widgets.js:415
+msgid "Charging"
+msgstr "Заряжается"
+
+#: modules/widgets/widgets.js:295
+msgid "{time} left"
+msgstr "Осталось {time}"
+
+#: modules/widgets/widgets.js:296
+msgid "On battery"
+msgstr "От аккумулятора"
+
+#: modules/widgets/widgets.js:304
+msgid "{h} h {m} min"
+msgstr "{h} ч {m} мин"
+
+#: modules/widgets/widgets.js:342
+msgid "CPU"
+msgstr "ЦП"
+
+#: modules/widgets/widgets.js:343
+msgid "Memory"
+msgstr "Память"
+
+#: modules/widgets/widgets.js:344
+msgid "Swap"
+msgstr "Подкачка"
+
+#: modules/windowbuttons/prefs.js:9
+msgid ""
+"Your GTK theme already draws the buttons in {dirs}; that file is left as it "
+"is."
+msgstr "Кнопки в {dirs} уже рисует ваша тема GTK, этот файл не меняется."
+
+#: modules/windowbuttons/prefs.js:13
+msgid "Title bar buttons"
+msgstr "Кнопки в заголовке"
+
+#: modules/windowbuttons/prefs.js:13
+msgid "Apps opened after the change pick it up."
+msgstr "Изменения видны в приложениях, открытых после них."
+
+#: modules/windowbuttons/prefs.js:14
+msgid "Buttons on the left"
+msgstr "Кнопки слева"
+
+#: modules/windowbuttons/prefs.js:15
+msgid "Close, minimize, maximize — in the macOS order"
+msgstr "Закрыть, свернуть, развернуть — в порядке macOS"
+
+#: modules/windowbuttons/prefs.js:16
+msgid "Red, yellow and green circles"
+msgstr "Красный, жёлтый и зелёный кружки"
+
+#: modules/windowbuttons/prefs.js:17
+msgid ""
+"Adds a small block to ~/.config/gtk-3.0 and gtk-4.0/gtk.css, removed when "
+"switched off"
+msgstr ""
+"Добавляет небольшой блок в ~/.config/gtk-3.0 и gtk-4.0/gtk.css, при "
+"выключении он удаляется"
+
+#: prefs.js:26
+msgid "Menu bar"
+msgstr "Строка меню"
+
+#: prefs.js:27
+msgid "Logo menu, app name, clock, glass bar"
+msgstr "Меню с логотипом, название приложения, часы, стеклянная панель"
+
+#: prefs.js:28
+msgid "Dock"
+msgstr "Док"
+
+#: prefs.js:29
+msgid "Magnifying dock at the bottom of the screen"
+msgstr "Док с увеличением значков внизу экрана"
+
+#: prefs.js:30
+msgid "Widgets"
+msgstr "Виджеты"
+
+#: prefs.js:31
+msgid "Clock, calendar, weather, battery, system"
+msgstr "Часы, календарь, погода, аккумулятор, система"
+
+#: prefs.js:32
+msgid "Notifications"
+msgstr "Уведомления"
+
+#: prefs.js:33
+msgid "Glass banners sliding in from the corner"
+msgstr "Стеклянные баннеры, выезжающие из угла"
+
+#: prefs.js:34
+msgid "Lock screen"
+msgstr "Экран блокировки"
+
+#: prefs.js:35
+msgid "Big clock on top, password at the bottom"
+msgstr "Крупные часы сверху, поле пароля снизу"
+
+#: prefs.js:36
+msgid "Spotlight"
+msgstr "Spotlight"
+
+#: prefs.js:37
+msgid "Search apps, files and settings, calculator"
+msgstr "Поиск приложений, файлов и настроек, калькулятор"
+
+#: prefs.js:42
+msgid "Full-screen grid of apps instead of the GNOME app grid"
+msgstr "Полноэкранная сетка приложений вместо сетки GNOME"
+
+#: prefs.js:43
+msgid "Volume and brightness"
+msgstr "Громкость и яркость"
+
+#: prefs.js:44
+msgid "macOS-style pop-up with a slider when you press the keys"
+msgstr "Окошко с ползунком как в macOS при нажатии клавиш"
+
+#: prefs.js:45
+msgid "Window buttons"
+msgstr "Кнопки окон"
+
+#: prefs.js:46
+msgid "Close, minimize and maximize on the left, red, yellow and green"
+msgstr "Закрыть, свернуть и развернуть слева, красная, жёлтая и зелёная"
+
+#: prefs.js:48
+msgid "Minimize animation"
+msgstr "Анимация сворачивания"
+
+#: prefs.js:49
+msgid "Windows go into the dock and come back like in macOS"
+msgstr "Окна уходят в док и возвращаются, как в macOS"
+
+#: prefs.js:50
+msgid "System dialogs"
+msgstr "Системные окна"
+
+#: prefs.js:51
+msgid "Password and confirmation dialogs in the macOS style"
+msgstr "Окна паролей и подтверждений в стиле macOS"
+
+#: prefs.js:52
+msgid "Shake to find the cursor"
+msgstr "Поиск курсора встряхиванием"
+
+#: prefs.js:53
+msgid "Shake the mouse quickly and the cursor grows"
+msgstr "Быстро поводите мышью — курсор увеличится"
+
+#: prefs.js:87
+msgid "Modules"
+msgstr "Модули"
+
+#: prefs.js:88
+msgid "Switch modules on or off. Click a module to change its settings."
+msgstr ""
+"Включайте и выключайте модули. Щёлкните по модулю, чтобы открыть его "
+"настройки."
+
+#: prefs.js:89
+msgid "Additional"
+msgstr "Дополнительные"
+
+#: prefs.js:90
+msgid "Window and system tweaks in the macOS style."
+msgstr "Окна и системные мелочи в стиле macOS."
+
+#: prefs.js:92
+msgid "Appearance and language"
+msgstr "Оформление и язык"
+
+#: prefs.js:93
+msgid "Language"
+msgstr "Язык"
+
+#: prefs.js:94
+msgid "System default"
+msgstr "Как в системе"
+
+#: prefs.js:97
+msgid "Applies to the whole extension and to these settings"
+msgstr "Применяется ко всему расширению и к этим настройкам"
+
+#: prefs.js:98
+msgid "Glass tint"
+msgstr "Оттенок стекла"
+
+#: prefs.js:99
+msgid "Follow system style"
+msgstr "Как в системе"
+
+#: prefs.js:100
+msgid "Light"
+msgstr "Светлый"
+
+#: prefs.js:101
+msgid "Dark"
+msgstr "Тёмный"
+
+#: prefs.js:136
+msgid "Enabled"
+msgstr "Включено"

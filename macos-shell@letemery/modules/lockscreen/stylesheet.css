@@ -1,0 +1,59 @@
+.tahoe-lock-date {
+  color: #ffffff;
+  font-size: 21pt;
+  font-weight: 600;
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.35);
+}
+.tahoe-lock-time {
+  color: #ffffff;
+  font-size: 96pt;
+  font-feature-settings: "tnum";
+  text-shadow: 0 2px 16px rgba(0, 0, 0, 0.30);
+}
+.tahoe-lock-time.tahoe-lock-bold    { font-weight: 800; }
+.tahoe-lock-time.tahoe-lock-regular { font-weight: 500; }
+.tahoe-lock-time.tahoe-lock-light   { font-weight: 200; }
+
+.tahoe-lockscreen .unlock-dialog-clock-hint {
+  color: rgba(255, 255, 255, 0.85);
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.4);
+}
+
+.tahoe-lockscreen .login-dialog-prompt-entry {
+  border-radius: 999px;
+  padding: 7px 14px;
+  min-width: 13em;
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.20);
+  border: 1px solid rgba(255, 255, 255, 0.30);
+  box-shadow: none;
+  caret-color: #ffffff;
+  selected-color: #ffffff;
+}
+.tahoe-lockscreen .login-dialog-prompt-entry:focus {
+  background-color: rgba(255, 255, 255, 0.28);
+  border-color: rgba(255, 255, 255, 0.45);
+}
+.tahoe-lockscreen .login-dialog-prompt-entry StLabel.hint-text {
+  color: rgba(255, 255, 255, 0.6);
+}
+.tahoe-lockscreen .user-widget-label {
+  font-size: 13pt;
+  font-weight: 700;
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.4);
+}
+.tahoe-lockscreen .login-dialog-button.cancel-button,
+.tahoe-lockscreen .login-dialog-button.switch-user-button {
+  background-color: rgba(255, 255, 255, 0.18);
+}
+
+.tahoe-lockscreen.tahoe-avatar-small .user-widget.vertical .user-icon  { icon-size: 72px; }
+.tahoe-lockscreen.tahoe-avatar-medium .user-widget.vertical .user-icon { icon-size: 100px; }
+.tahoe-lockscreen.tahoe-avatar-large .user-widget.vertical .user-icon  { icon-size: 160px; }
+.tahoe-lockscreen.tahoe-avatar-small .user-widget.vertical .user-icon StIcon  { padding: 14px; }
+.tahoe-lockscreen.tahoe-avatar-medium .user-widget.vertical .user-icon StIcon { padding: 20px; }
+.tahoe-lockscreen .user-widget.vertical { spacing: 12px; }
+.tahoe-lockscreen .user-widget.vertical .user-widget-label {
+  font-size: 1.25em;
+  margin-bottom: 0.4em;
+}

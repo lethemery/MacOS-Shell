@@ -1,0 +1,69 @@
+.tahoe-spotlight {
+  border-radius: 26px;
+  padding: 6px;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.35);
+}
+.tahoe-spotlight:expanded { border-radius: 22px; }
+.tahoe-spotlight.tahoe-light {
+  color: #1d1d1f;
+  background-color: rgba(246, 246, 250, 0.94);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+}
+.tahoe-spotlight.tahoe-dark {
+  color: #ffffff;
+  background-color: rgba(38, 38, 44, 0.94);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+}
+
+.tahoe-spotlight-entry,
+.tahoe-spotlight-entry:focus,
+.tahoe-spotlight-entry:hover {
+  font-size: 17pt;
+  font-weight: 400;
+  padding: 10px 14px;
+  border: none;
+  border-radius: 20px;
+  background-color: transparent;
+  box-shadow: none;
+  caret-color: -st-accent-color;
+}
+.tahoe-light .tahoe-spotlight-entry { color: #1d1d1f; }
+.tahoe-dark  .tahoe-spotlight-entry { color: #ffffff; }
+.tahoe-spotlight-entry StLabel.hint-text { opacity: 0.45; }
+.tahoe-spotlight-search-icon { icon-size: 20px; padding-right: 10px; }
+.tahoe-light .tahoe-spotlight-search-icon { color: rgba(0, 0, 0, 0.5); }
+.tahoe-dark  .tahoe-spotlight-search-icon { color: rgba(255, 255, 255, 0.6); }
+
+.tahoe-spotlight-scroll {
+  max-height: 440px;
+  margin-top: 4px;
+}
+.tahoe-light .tahoe-spotlight-scroll { border-top: 1px solid rgba(0, 0, 0, 0.08); }
+.tahoe-dark  .tahoe-spotlight-scroll { border-top: 1px solid rgba(255, 255, 255, 0.10); }
+.tahoe-spotlight-list { padding: 4px 0; }
+
+.tahoe-spotlight-section {
+  font-size: 8.5pt;
+  font-weight: 700;
+  padding: 8px 12px 3px 12px;
+}
+.tahoe-light .tahoe-spotlight-section { color: rgba(0, 0, 0, 0.45); }
+.tahoe-dark  .tahoe-spotlight-section { color: rgba(255, 255, 255, 0.5); }
+
+.tahoe-spotlight-row {
+  border-radius: 12px;
+  padding: 5px 10px;
+  margin: 0 2px;
+  background: none;
+  border: none;
+  box-shadow: none;
+  text-align: left;
+}
+.tahoe-spotlight-row:selected {
+  background-color: -st-accent-color;
+  color: -st-accent-fg-color;
+}
+.tahoe-spotlight-row-box { spacing: 12px; }
+.tahoe-spotlight-row-name { font-size: 11pt; font-weight: 500; }
+.tahoe-spotlight-row-desc { font-size: 9pt; opacity: 0.65; }
+.tahoe-spotlight-row-hint { font-size: 9pt; opacity: 0.6; }

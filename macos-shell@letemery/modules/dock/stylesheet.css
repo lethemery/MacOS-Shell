@@ -1,0 +1,64 @@
+.tahoe-dock {
+  padding: 6px 7px 1px 7px;
+  spacing: 4px;
+  border-radius: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  box-shadow: 0 10px 34px rgba(0, 0, 0, 0.28);
+}
+.tahoe-dock.tahoe-light {
+  background-color: rgba(255, 255, 255, 0.42);
+  background-gradient-direction: vertical;
+  background-gradient-start: rgba(255, 255, 255, 0.55);
+  background-gradient-end: rgba(240, 240, 248, 0.36);
+}
+.tahoe-dock.tahoe-dark {
+  background-color: rgba(30, 30, 36, 0.60);
+  background-gradient-direction: vertical;
+  background-gradient-start: rgba(62, 62, 70, 0.62);
+  background-gradient-end: rgba(22, 22, 28, 0.58);
+  border-color: rgba(255, 255, 255, 0.18);
+}
+
+.tahoe-dock-item {
+  padding: 0;
+  margin: 0;
+  border: none;
+  background: none;
+  box-shadow: none;
+}
+.tahoe-dock-item:focus .tahoe-dock-icon {
+  icon-shadow: 0 0 6px -st-accent-color;
+}
+.tahoe-dock-icon {
+  icon-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+}
+
+.tahoe-dock-dot {
+  border-radius: 2px;
+}
+.tahoe-light .tahoe-dock-dot { background-color: rgba(0, 0, 0, 0.75); }
+.tahoe-dark  .tahoe-dock-dot { background-color: rgba(255, 255, 255, 0.85); }
+
+.tahoe-dock-separator {
+  margin: 0 4px;
+}
+.tahoe-light .tahoe-dock-separator { background-color: rgba(0, 0, 0, 0.18); }
+.tahoe-dark  .tahoe-dock-separator { background-color: rgba(255, 255, 255, 0.22); }
+
+.tahoe-dock-label {
+  padding: 4px 11px;
+  border-radius: 9px;
+  font-size: 10pt;
+  font-weight: 500;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+}
+.tahoe-dock-label.tahoe-light {
+  color: #1d1d1f;
+  background-color: rgba(246, 246, 250, 0.92);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+.tahoe-dock-label.tahoe-dark {
+  color: #ffffff;
+  background-color: rgba(44, 44, 50, 0.92);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
